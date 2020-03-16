@@ -1,0 +1,431 @@
+*{
+  box-sizing: border-box;
+  }
+  .menulist {
+  display: flex;
+  background-color: black;
+  list-style: none;
+  margin: auto;
+  height: 15vh;
+}
+.logo-container{
+  flex: 2;
+}
+h1{
+  font-size: 1.75em;
+}
+h4{
+  font-size: 1.25em;
+}
+ul {
+  list-style: none;
+  margin: 1.25em;
+  padding: 0em;
+}
+.left-menu {
+  /*width: 1100px;*/
+  flex: 3;
+}
+.right-menu {
+  /*width: 450px;*/
+  flex: 1;
+}
+
+#logo{
+  margin: 0.3125em;
+  float: left;
+}
+.left-menu li {
+  float: left;
+  width: 12.5em;
+  height: 2.5em;
+  opacity: .6;
+  line-height: 2.5em;
+  text-align: center;
+  background-color: black;
+  font-size: 1.875em;
+}
+#res li, #mak li{
+  display: none;
+}
+ul li:hover #res li, ul li:hover #mak li{
+  display: block;
+}
+.section1, .section4{
+  background-color: black;
+}
+.section3 {
+  background-color: #8883a1;
+}
+#wordings1, #wordings4{
+  color: #fff;
+}
+#process{
+  color: #000000;
+}
+.section1, .section4{
+  display: flex;
+  height: 75vh;
+}
+.section1, .section5{
+  margin-top: 0em;
+  margin-left: 0em;
+  margin-right: 0em;
+  align-content: center;
+  margin-bottom: 1.05em;
+}
+.section4 {
+  margin: 1.5em;
+  margin-left: 0em;
+  margin-right: 0em;
+  width: 98.7vw;
+
+}
+
+.section3 {
+    margin-top: 0.5em;
+    margin-left: 0em;
+    margin-right: 0em;
+    align-content:  left;
+}
+#image3 h5{
+  text-align: ;
+}
+#dochimp, #process{
+  text-align: center;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+#wordings1, #image2, #wordings4 {
+  float: left;
+  margin-left: auto;
+  margin-right: 0.55vh;
+  margin-top: 2.75vh;
+}
+#image1, #image4 {
+  float: right;
+  margin-right: auto;
+  margin-left: 1.25em;
+  margin-top: 1.75em;
+  height: 70vh;
+  width: 30vw;
+  padding: 5.55vh;
+}
+#image4{
+  margin-top: 6.5em;
+}
+#wordings2{
+    float: right;
+    margin-right: auto;
+    margin-left: 1em;
+    margin-top: 4em;
+    background-image:
+}
+#wordings1, #wordings2, #wordings4{
+  width: 40vw;
+  height: 60vh;
+  padding: 8.25vh;
+}
+#wordings4{
+  padding-top: 2.5em;
+}
+a{
+  text-decoration: none;
+}
+#process{
+  display: flex;
+  margin-top: 3.5em;
+  margin-bottom: 3.5em;
+  text-align: center;
+}
+.section5{
+  margin-top: 3.5em;
+background-color: #6c757d;
+text-align: center;
+border-bottom: 0.025em solid black;
+  margin-bottom: 0em;
+}
+.col-md-6{
+  padding-top: 3.5em;
+  padding-bottom: 3.5em;
+}
+#end, .foot, .foot-menu, #click{
+  display: flex;
+}
+footer{
+  background-color: #6c757d;
+}
+.foot-menu{
+  border-left: 0.025em solid black;
+}
+h6{
+  font-size: 0.75em;
+}
+#guy{
+  margin-right: 2.5em;
+}
+.men{
+  font-size: 0.75em;
+}
+.art {
+  display: flex;
+  border-top: 0.0075em solid #6c757d;
+  border-bottom: 0.0075em solid #6c757d;
+}
+#hi {
+  margin: 1.25em;
+  margin-left: 1.25em;
+  margin-right: 1.75em;
+  float: left;
+}
+#ic, #on{
+  margin-top: 3.95em;
+  float:left;
+}
+#fen{
+  margin-top: 5.55em;
+  margin-left: 1.25em;
+  margin-right: 1.75em;
+  float: left;
+}
+.spon{
+  margin-left: 8em;
+}
+#ad {
+  margin-top: 2.25em;
+}
+#artfan{
+  margin:0.85em;
+}
+#play1, #play2, #play3, #play4, #play5, #play6, #play7{
+  width:3.5em;
+  height:2.5em;
+  margin-top: 3.75em;
+  cursor: pointer;
+}
+ #seek-bar1, #seek-bar2, #seek-bar3, #seek-bar4, #seek-bar5, #seek-bar6, #seek-bar7{
+  width:50vw;
+  height:0.85vh;
+  background-color: black;
+  display: flex;
+  border-radius:5em;
+  cursor: pointer;
+  margin-top: 8.5em;
+  margin-right: 10.5em;
+  margin-left: -8em;
+}
+ #fill1, #fill2, #fill3, #fill4, #fill5, #fill6, #fill7{
+  height:0.85vh;
+  background-color:#dc3545;
+  border-radius: 3.5em;
+  /*margin-top: 135px;
+  margin-right: 190px;
+  margin-left: -145px;*/
+}
+ #handle1, #handle2, #handle3, #handle4, #handle5, #handle6, #handle7{
+  width:0.55vw;
+  height:0.95vh;
+  background-color: #dc3545;
+  border-radius: 40%;
+  margin-left: -0.075em;
+  transform: scale(2);
+}
+
+/* this styling is for responsiveness for mobile phones*/
+@media only screen and (max-width: 425px){
+  .menulist {
+    height: 2vh;
+  }
+  .logo-container{
+    background-color: white;
+    text-align: center;
+    width: 40vw;
+  }
+  h1{
+    font-size: 1.15em;
+  }
+  h4{
+    font-size: 0.65em;
+  }
+  .left-menu {
+    display: none;
+  }
+  .right-menu {
+    display: none;
+  }
+
+  #logo{
+    width: 12vw;
+    height: 5vh;
+    margin: 0.1125em;
+  }
+  .section1{
+    background-image: url("images/imm.jpg");
+    background-repeat: no-repeat;
+  }
+
+  .section1, .section4{
+    height: 65vh;
+  }
+  #img1{
+    display: none;
+  }
+  .section1, .section5{
+    margin-bottom: 1.75em;
+  }
+  .section4 {
+    margin: 1.5em;
+    margin-left: 0em;
+    margin-right: 0em;
+    width: 98.7vw;
+    height: 75vh;
+
+  }
+
+  .section3 {
+      margin-top: 0.5em;
+      margin-left: 0em;
+      margin-right: 0em;
+      align-content:  left;
+  }
+  #image3 h5{
+    text-align: ;
+  }
+  #dochimp, #process{
+    text-align: center;
+    margin-top: 0em;
+    margin-bottom: 0em;
+  }
+  #dow{
+    width: 15vw;
+    height: 18vw;
+    padding: 0.6em;
+  }
+
+  #wordings1, #image2, #wordings4 {
+    margin-left: 0.45em;
+    margin-right: 0.25em;
+    margin-top: 0.55em;
+  }
+  #image1, #image4 {
+    margin-right: auto;
+    margin-left: 0.55em;
+    margin-top: 0.65em;
+    height: 12vh;
+    width: 9vw;
+    padding: 0.85em;
+  }
+  #image4{
+    margin-top: 1.5em;
+  }
+  #wordings2{
+      margin-right: auto;
+      margin-left: 0.25em;
+      margin-top: 0.75em;
+  }
+  #wordings1, #wordings2, #wordings4{
+    width: 20vw;
+    height: 14vh;
+    padding: 0.75em;
+  }
+  #wordings4{
+    padding-top: 0.85em;
+  }
+  a{
+    text-decoration: none;
+  }
+  #process{
+    display: flex;
+    margin-top: 1.75em;
+    margin-bottom: 1.75em;
+    text-align: center;
+  }
+  .section5{
+    margin-top: 1.15em;
+  background-color: #6c757d;
+  text-align: center;
+  border-bottom: 0.025em solid black;
+  }
+  .col-md-6{
+    padding-top: 1.15em;
+    padding-bottom: 1.15em;
+  }
+  #end, .foot, .foot-menu, #click{
+    display: flex;
+  }
+  footer{
+    background-color: #6c757d;
+  }
+  .foot-menu{
+    border-left: 0.025em solid black;
+  }
+  #guy{
+    margin-right: 1.05em;
+  }
+  .men{
+    font-size: 0.35em;
+  }
+  .art {
+    display: flex;
+    border-top: 0.0075em solid #6c757d;
+    border-bottom: 0.0075em solid #6c757d;
+  }
+  #hi{
+    width: 12vw;
+    height: 7.0vh;
+  }
+  #hi, #fen {
+    margin: 0.25em;
+    margin-left: 0.35em;
+    margin-right: 0.35em;
+    float: left;
+  }
+  #ic, #fen, #on{
+    margin-top: 1.15em;
+    float:left;
+  }
+  .spon{
+    margin-left: 3.5em;
+  }
+  #ad {
+    margin-top: 0.75em;
+  }
+  #artfan{
+    margin:0.25em;
+  }
+  #play1, #play2, #play3, #play4, #play5, #play6, #play7{
+    width:1.25em;
+    height:1.05em;
+    margin-top: 1.15em;
+    cursor: pointer;
+  }
+   #seek-bar1, #seek-bar2, #seek-bar3, #seek-bar4, #seek-bar5, #seek-bar6, #seek-bar7{
+    width:11vw;
+    height:0.85vh;
+    background-color: black;
+    display: flex;
+    border-radius:1.25em;
+    cursor: pointer;
+    margin-top: 1.95em;
+    margin-right: 3.5em;
+    margin-left: -1.85em;
+  }
+   #fill1, #fill2, #fill3, #fill4, #fill5, #fill6, #fill7{
+    height:0.85vh;
+    background-color:#dc3545;
+    border-radius: 1.25em;
+    /*margin-top: 135px;
+    margin-right: 190px;
+    margin-left: -145px;*/
+  }
+   #handle1, #handle2, #handle3, #handle4, #handle5, #handle6, #handle7{
+    width:0.55vw;
+    height:0.95vh;
+    background-color: #dc3545;
+    border-radius: 40%;
+    margin-left: -0.075em;
+    transform: scale(2);
+  }
+
+}
